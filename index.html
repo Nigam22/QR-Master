@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <link rel="icon" type="image/jpeg" href="/app-icon.jpg" />
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.jpg" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>QR Master - Scanner & Generator</title>
+    <meta name="description" content="QR Master - Scan and generate QR codes with style" />
+    <meta name="author" content="QR Master" />
+
+    <meta property="og:title" content="QR Master - Scanner & Generator" />
+    <meta property="og:description" content="QR Master - Scan and generate QR codes with style" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/app-icon.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@QRMaster" />
+    <meta name="twitter:image" content="/app-icon.jpg" />
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/src/main.tsx" as="script">
+  </head>
+
+  <body style="background-color: #FFFFFF; margin: 0; padding: 0;">
+    <div id="root"></div>
+    
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
